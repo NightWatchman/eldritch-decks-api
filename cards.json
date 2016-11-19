@@ -1,6 +1,6 @@
 {
   "base": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -246,7 +246,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "Ga1",
@@ -418,7 +418,7 @@
         }
       ]
     },
-    "expeditions": {
+    "expedition": {
       "card": [
         {
           "id": "Ex_Ant_1",
@@ -864,7 +864,7 @@
     }
   },
   "forsaken_lore": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -1062,7 +1062,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "FL_Ga25",
@@ -1108,7 +1108,7 @@
         }
       ]
     },
-    "expeditions": {
+    "expedition": {
       "card": [
         {
           "id": "FL_Ex_Ant_4",
@@ -1838,7 +1838,7 @@
     }
   },
   "mountains_of_madness": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -2273,7 +2273,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "MoM_Ga31",
@@ -2319,7 +2319,7 @@
         }
       ]
     },
-    "expeditions": {
+    "expedition": {
       "card": [
         {
           "id": "MoM_Ex_Syd_1",
@@ -2833,7 +2833,7 @@
     }
   },
   "strange_remnants": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -2959,7 +2959,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "SR_Ga37",
@@ -3438,7 +3438,7 @@
     }
   },
   "under_the_pyramids": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -3770,7 +3770,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "UtP_Ga43",
@@ -3816,7 +3816,7 @@
         }
       ]
     },
-    "expeditions": {
+    "expedition": {
       "card": [
         {
           "id": "UtP_Ex_BA_1",
@@ -4473,7 +4473,7 @@
     }
   },
   "signs_of_carcosa": {
-    "locations": {
+    "location": {
       "americas": {
         "top_header": "Arkham",
         "middle_header": "San Francisco",
@@ -4599,7 +4599,7 @@
         ]
       }
     },
-    "gates": {
+    "gate": {
       "card": [
         {
           "id": "SoC_Ga49",
@@ -4645,7 +4645,7 @@
         }
       ]
     },
-    "expeditions": {
+    "expedition": {
       "card": [
         {
           "id": "SoC_Ex_Amz_6",
