@@ -40,4 +40,22 @@ describe('CardFetcher', () => {
     const card = CardFetcher.fetchCard(spec);
     expect(card).to.be.null;
   });
+
+  it('fetchCard_CardHasNoHeaders_HeadersIsEmpty', () => {
+    const card = CardFetcher.fetchCard({
+      gameSet: 'forsaken_lore',
+      cardType: 'expedition',
+      cardId: 'FL_Ex_Him_4'
+    });
+    expect(card.headers).to.be.empty;
+  });
+
+  it('fetchCard_CardHasNoName_IsEmpty', () => {
+    const card = CardFetcher.fetchCard({
+      gameSet: 'strange_remnants',
+      cardType: 'research',
+      cardId: 'FL_R_Syz3'
+    });
+    expect(card.name).to.be.empty;
+  });
 });
