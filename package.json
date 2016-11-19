@@ -4,13 +4,18 @@
   "description": "node.js API supplying eldritch-decks data",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "build": "./node_modules/.bin/babel src -d lib",
+    "build-watch": "./node_modules/.bin/babel src -d lib --watch"
   },
   "author": "Eric C. Rushing",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.5.2"
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
+    "jasmine-core": "^2.5.2",
+    "jasmine-node": "^1.14.5",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2"
   }
 }
