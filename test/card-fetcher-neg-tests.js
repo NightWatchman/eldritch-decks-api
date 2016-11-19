@@ -10,7 +10,7 @@ describe('CardFetcher', () => {
   };
 
   it('FetchCard_NoCardSpec_IsNull', () => {
-    const card = CardFetcher.FetchCard();
+    const card = CardFetcher.fetchCard();
     expect(card).to.be.null;
   });
 
@@ -19,7 +19,7 @@ describe('CardFetcher', () => {
     Object.assign(spec, defSpec);
     spec.gameSet = 'no-such-game';
 
-    const card = CardFetcher.FetchCard(spec);
+    const card = CardFetcher.fetchCard(spec);
     expect(card).to.be.null;
   });
 
@@ -28,7 +28,7 @@ describe('CardFetcher', () => {
     Object.assign(spec, defSpec);
     spec.cardType = 'no-such-type';
 
-    const card = CardFetcher.FetchCard(spec);
+    const card = CardFetcher.fetchCard(spec);
     expect(card).to.be.null;
   });
 
@@ -37,7 +37,7 @@ describe('CardFetcher', () => {
     Object.assign(spec, defSpec);
     spec.cardId = 'no-such-id';
 
-    const card = CardFetcher.FetchCard(spec);
+    const card = CardFetcher.fetchCard(spec);
     expect(card).to.be.null;
   });
 });

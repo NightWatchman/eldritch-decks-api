@@ -4,6 +4,6 @@
  * @param cardSpec.cardType Type of card. e.g. 'locations', 'gates', 'expeditions'.
  * @param cardSpec.cardId Id of card e.g. 'A2, Ga3, Ex_Him_1'
  */
-export function FetchCard(cardSpec) {
+export function fetchCard(cardSpec) {
   
 };
