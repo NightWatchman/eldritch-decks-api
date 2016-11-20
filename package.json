@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-register --require babel-polyfill || true",
-    "build": "./node_modules/.bin/babel src -d lib",
-    "build-watch": "./node_modules/.bin/babel src -d lib --watch"
+    "build": "./node_modules/.bin/babel src -d .",
+    "build-watch": "./node_modules/.bin/babel src -d . --watch"
   },
   "author": "Eric C. Rushing",
   "license": "MIT",
