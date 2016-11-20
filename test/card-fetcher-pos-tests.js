@@ -1,15 +1,18 @@
 import {expect} from 'chai';
 import * as CardFetcher from '../lib/card-fetcher';
+import {CARD_DATA_PATH} from './test-constants';
 
 
 describe('CardFetcher (Locations)', () => {
 
   it('fetchCard_CardHasHeaders_HeadersMatch', () => {
-    const card = CardFetcher.fetchCard({
-      gameSet: 'base',
-      cardType: 'location',
-      cardId: 'As8'  
-    });
+    const card = CardFetcher.fetchCard(
+      CARD_DATA_PATH,
+      {
+        gameSet: 'base',
+        cardType: 'location',
+        cardId: 'As8'
+      });
     expect(card.headers).to.eql(headers = [
       'Shanghai',
       'Tokyo',
@@ -18,20 +21,24 @@ describe('CardFetcher (Locations)', () => {
   });
 
   it('fetchCard_CardHasName_NameMatches', () => {
-    const card = CardFetcher.fetchCard({
-      gameSet: 'mountains_of_madness',
-      cardType: 'gate',
-      cardId: 'MoM_Ga33'
-    });
+    const card = CardFetcher.fetchCard(
+      CARD_DATA_PATH,
+      {
+        gameSet: 'mountains_of_madness',
+        cardType: 'gate',
+        cardId: 'MoM_Ga33'
+      });
     expect(card.name).to.eql('Plateau of Leng');
   });
 
   it('fetchCard_knownCard_textMatches', () => {
-    const card = CardFetcher.fetchCard({
-      gameSet: 'under_the-pyramids',
-      cardType: 'expedition',
-      cardId: 'UtP_Ex_Ist_1'
-    });
+    const card = CardFetcher.fetchCard(
+      CARD_DATA_PATH, 
+      {
+        gameSet: 'under_the-pyramids',
+        cardType: 'expedition',
+        cardId: 'UtP_Ex_Ist_1'
+      });
     expect(card.top, 'top mismatch').to.equal(
       'On a high hill, you find a large flat stone carved with' +
       ' images of constellations. Locals claim these were left' +
