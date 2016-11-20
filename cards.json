@@ -5,7 +5,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "A1",
             "top": "In the restricted section of Miskatonic University's library, you study an esoteric tome. Gain 1 INCANTATION Spell. You try to decode a note written in the margin [LORE]. If you fail, the words put strange visions into your mind; gain a Hallucinations Condition.",
@@ -60,7 +60,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "E1",
             "top": "The Silver Twilight Lodge is locked up tight. You look over the old building for a possible entrance [OBSERVATION]. If you pass, the Lodge members are delighted by your ingenuity and offer their favor; gain a Blessed Condition. If you fail, you waste fruitless hours searching and become Delayed.",
@@ -115,7 +115,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "As1",
             "top": "You search through old copies of the The Shanghai Courier to find strange or unexplained stories [OBSERVATION]. If you pass, you discover a pattern of arcane activity in the city; improve [LORE]. If you fail, lose 1 Sanity as no pattern emerges from all this horror.",
@@ -170,7 +170,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "G1",
             "top": "You make sure no one is watching before sneaking out of the shop with your stolen goods [OBSERVATION]. If you pass, gain 1 ITEM Asset from the reserve or random ITEM Asset from the deck. If you fail, you are caught by the store owner and arrested; gain a Detained Condition.",
@@ -247,7 +247,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "Ga1",
           "name": "Great Hall of Celaeno",
@@ -419,7 +419,7 @@
       ]
     },
     "expedition": {
-      "card": [
+      "cards": [
         {
           "id": "Ex_Ant_1",
           "name": "antarctica",
@@ -553,7 +553,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "YOG-SOTHOTH": {
-        "card": [
+        "cards": [
           {
             "id": "R_YS1",
             "top": "Randolph Carter claims that the Silver Twilight Lodge stole a unique family treasure. You investigate the local Lodge [OBSERVATION]. If you pass, you gain the opportunity to examine the stolen treasure; gain this Clue and you may discard a Spell to gain the Silver Key Artifact. If you fail, the Lodge frames you for the theft; gain a Detained Condition.",
@@ -605,7 +605,7 @@
         ]
       },
       "azathoth": {
-        "card": [
+        "cards": [
           {
             "id": "R_Az1",
             "top": "Inside a warehouse, you hear a clanging sound and discover a creature that resembles a metallic crate walking around on several legs. You try to follow the thing back to the cult's lair [OBSERVATION - 1]. If you pass, gain this Clue and 1 additional Clue.",
@@ -657,7 +657,7 @@
         ]
       },
       "SHUB-NIGGURATH": {
-        "card": [
+        "cards": [
           {
             "id": "R_SN1",
             "top": "You search for insight into what the Order of the Death's Head was doing before they left the city [OBSERVATION]. If you pass, you find notes about a creature; gain this Clue and discard 1 Monster of your choice. If you fail; advance Doom by 1.",
@@ -710,7 +710,7 @@
       },
       "cthulhu": {
         "#text": ">",
-        "card": [
+        "cards": [
           {
             "id": "R_Ct1",
             "top": "The librarian tells you that the book you're looking for was checked out by someone named Mr. Marsh. You scour the city to find him before he leaves town [OBSERVATION]. If you pass, you manage to steal the book from his hotel room; gain this Clue. If you fail, move this Clue to the nearest Sea space.",
@@ -766,7 +766,7 @@
       "YOG-SOTHOTH": {
         "SPECIAL-1": {
           "name": "The Key and the Gate",
-          "card": [
+          "cards": [
             {
               "id": "Sp1_YS1",
               "top": "A mass of glowing spheres, mouths, and tentacles burst forth from the portal. You feel a terrible intelligence searching your mind for signs of corruption. If you have a Dark Pact Condition, you are devoured. The Lurker then fills your thoughts with forbidden knowledge [WILL - 1].",
@@ -809,7 +809,7 @@
       "cthulhu": {
         "SPECIAL-1": {
           "name": "R'lyeh Risen",
-          "card": [
+          "cards": [
             {
               "id": "Sp1_Ct1",
               "top": "At the very peak of the island, you encounter a massive stone door featuring a horrific bas-relief of a dragon-like creature. Strange symbols are carved along the edge of the door. Some of the icons resemble drawings you've seen in books [LORE - 1].",
@@ -869,7 +869,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "FL_A9",
             "top": "Ma Mathison shows you a journal left behind by one of the lodgers at her boarding house. The text makes several oblique references to the occult, but you think you can decipher its meaning [LORE - 1]. If you pass, you determine the lodger's true intent; gain 1 INCANTATION Spell and spawn 1 Clue.",
@@ -924,7 +924,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "FL_E9",
             "top": "Sir Arthur Conan Doyle tells you of his interest in spiritualism around the world. His stories sound dubious but somehow familiar [LORE - 1]. If you pass, you discern which tales are genuine; spawn 2 Clues. If you fail, you get sidetracked pursuing false leads; become Delayed.",
@@ -979,7 +979,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "FL_As9",
             "top": "You try to persuade a collector of Chinese antiquities to let you see the Seven Cryptical Books of Hsan [INFLUENCE]. If you pass, the scrolls prove instructive; improve [LORE]. If you fail, the collector tricks you; discard 1 Artifact or 1 TRINKET Asset.",
@@ -1034,7 +1034,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "FL_G13",
             "top": "A night watchman tells you that a crate of weapons has \"gone missing\"from his warehouse. You offer him some money to learn more [INFLUENCE]. If you pass, he sends you to an alley; gain 1 random WEAPON Asset from the deck. If you fail, he sends you into a trap; lose 1 Health and gain a Leg Injury Condition.",
@@ -1063,7 +1063,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "FL_Ga25",
           "name": "The Dreamlands",
@@ -1109,7 +1109,7 @@
       ]
     },
     "expedition": {
-      "card": [
+      "cards": [
         {
           "id": "FL_Ex_Ant_4",
           "name": "antarctica",
@@ -1159,7 +1159,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "azathoth": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_Az9",
             "top": "With all the lights in the city, you might not notice the comet streaking toward you [OBSERVATION - 1]. If you pass, you safely avoid the impact and can examine the greenish stone; gain this Clue. If you fail, you are caught in the comet's explosive impact; lose 2 Health.",
@@ -1259,7 +1259,7 @@
         ]
       },
       "SHUB-NIGGURATH": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_SN9",
             "top": "The Order of the Death's Head is engaged in a ritual. You must swear an oath of allegiance to prove that you are one of them. You may gain a Dark Pact Condition to gain this Clue. If you do not gain the Condition, the ritual takes place, uninterrupted; spawn 2 Monsters each on a random space.",
@@ -1359,7 +1359,7 @@
         ]
       },
       "cthulhu": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_Ct9",
             "top": "Your guide leads you into a blind alley and attacks you. A Cultist Monster ambushes you! If you defeat it, you take a medallion adorned with dragons and octopuses; gain this Clue. If you do not defeat it, you wake up on a ship; gain an Amnesia Condition and move to the nearest Sea space.",
@@ -1459,7 +1459,7 @@
         ]
       },
       "YOG-SOTHOTH": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_YS9",
             "top": "A wealthy recluse possesses a vast occult library. You attempt to convince his family to let you examine the books [INFLUENCE - 2]. If you pass, you obtain several significant texts; gain 1 TOME Artifact. If you fail, the recluse pays you a visit and shares his insanity; gain a MADNESS Condition.",
@@ -1559,7 +1559,7 @@
         ]
       },
       "yig": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_Y1",
             "top": "You search for the snake responsible for the victim's bite so an antivenom can be created [OBSERVATION - 1]. If you pass, you track down the creature and save the man's life; gain this Clue. If you fail, the snake escapes and its victim wastes away; lose 1 Sanity and move this Clue to the nearest Expedition space.",
@@ -1711,7 +1711,7 @@
       "yig": {
         "SPECIAL-1": {
           "name": "K'n-Yan Unearthed",
-          "card": [
+          "cards": [
             {
               "id": "FL_Sp1_Yig1",
               "top": "At the entrance, a horrifying, malformed creature staggers toward you. When it gets near, you see that it is the animated remains of a man's mutilated corpse. The creature attacks you [STRENGTH - 1]!",
@@ -1766,7 +1766,7 @@
       "YOG-SOTHOTH": {
         "SPECIAL-1": {
           "name": "The Key and the Gate",
-          "card": [
+          "cards": [
             {
               "id": "FL_Sp1_YS7",
               "top": "The landscape around you changes constantly as Yog-Sothoth drags you through all worlds and all times. You search desperately for anything familiar to find your way home [OBSERVATION - 1].",
@@ -1783,7 +1783,7 @@
         },
         "SPECIAL-2": {
           "name": "Void Between Worlds",
-          "card": [
+          "cards": [
             {
               "id": "FL_Sp2_YS1",
               "top": "From this bizarre place between worlds, you can catch a glimpse of all worlds and all times. You have an epiphany and search for a member of the Inner Circle of the Silver Twilight Lodge to observe [OBSERVATION - 1].",
@@ -1843,7 +1843,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "MoM_A17",
             "top": "At Miskatonic University's Administration Building, you tell your story to the school's head librarian [INFLUENCE - 1]. If you pass, he agrees to help you; gain the Professor Armitage Unique Asset. If you fail, you are forcefully escorted off campus; lose 1 Health.",
@@ -1874,7 +1874,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "MoM_E17",
             "top": "An archaeologist asks you to find information about the de la Poer family [OBSERVATION - 1]. If you pass, he offers you his help; gain the Sir William Brinton Unique Asset. If you fail, you begin to hear sounds in the walls; gain a Hunted Condition.",
@@ -1905,7 +1905,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "MoM_As17",
             "top": "A historian visiting from New England shows you a profane golden jewel. Just the sight of it disturbs you [WILL - 1]. If you pass, your fortitude impresses her; gain the Anna Tilton Unique Asset. If you fail, something about the jewel haunts you; lose 1 Sanity and gain 1 MADNESS Condition.",
@@ -1936,7 +1936,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "MoM_G17",
             "top": "A notorious crime boss offers to sell you valuable information. However, his asking price is more than you can afford. You may gain a Debt Condition. If you gain the Condition, he shares what he knows; gain 1 TASK Unique Asset.",
@@ -1967,7 +1967,7 @@
         "top_header": "Snowy Mountains",
         "middle_header": "City of the Elder Things",
         "bottom_header": "Plateau of Leng",
-        "card": [
+        "cards": [
           {
             "id": "MoM_A-W1",
             "top": "Flying elder things surround your plane. The other passengers panic, but you force yourself to remain calm [WILL]. If you pass, you get a close look at the creatures; gain 1 Clue. If you fail, your fears get the better of you; lose 2 Sanity.",
@@ -2070,7 +2070,7 @@
         "top_header": "Miskatonic Outpost",
         "middle_header": "Lake Camp",
         "bottom_header": "Frozen Waste",
-        "card": [
+        "cards": [
           {
             "id": "MoM_A-E1",
             "top": "The university has hired a cold-weather survival specialist. He'll join your cause for the right price [INFLUENCE]. If you pass, gain 1 Antarctic Guide Unique Asset. If you fail, you get lost without him; lose 1 Health and move to Snowy Mountains.",
@@ -2173,7 +2173,7 @@
         "top_header": "Miskatonic Outpost or Lake Camp",
         "middle_header": "Frozen Waste or Snowy Mountains",
         "bottom_header": "City of the Elder Things or Plateau of Leng",
-        "card": [
+        "cards": [
           {
             "id": "MoM_R_Ant1",
             "top": "You see two elder things carry a member of your party toward a particular part of the mountains. Gain this Clue. You're attacked while you're distracted. An Elder Thing Monster ambushes you! If you defeat it, gain 1 additional Clue.",
@@ -2274,7 +2274,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "MoM_Ga31",
           "name": "Plateau of Leng",
@@ -2320,7 +2320,7 @@
       ]
     },
     "expedition": {
-      "card": [
+      "cards": [
         {
           "id": "MoM_Ex_Syd_1",
           "name": "sydney",
@@ -2370,7 +2370,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "ithaqua": {
-        "card": [
+        "cards": [
           {
             "id": "MoM_R_Itq1",
             "top": "The city is blanketed in snow, and you search for any sign of your contact [OBSERVATION - 1]. If you pass, you find him in a half-buried pub, and he shares what he's learned; gain this Clue and 1 additional Clue. If you fail, you stay out in the cold for too long; lose 1 Health and gain a Hypothermia Condition.",
@@ -2518,7 +2518,7 @@
         ]
       },
       "rise_of_the_elder_things": {
-        "card": [
+        "cards": [
           {
             "id": "MoM_R_RotET1",
             "top": "Professor Ellery is working on a device that blocks the psychic dominance of the elder things, but he needs funding in order to produce a prototype. You may gain a Debt Condition to gain this Clue and 1 additional Clue.",
@@ -2670,7 +2670,7 @@
       "rise_of_the_elder_things": {
         "SPECIAL-1": {
           "name": "Mysterious Disappearances",
-          "card": [
+          "cards": [
             {
               "id": "MoM_Sp1_RotET1",
               "top": "During the course of your investigation into the disappearing citizens, a contact in the police department points you to an abandoned warehouse by the docks [OBSERVATION].",
@@ -2723,7 +2723,7 @@
         },
         "SPECIAL-2": {
           "name": "A Dark God",
-          "card": [
+          "cards": [
             {
               "id": "MoM_Sp2_RotET1",
               "top": "A shoggoth thunders towards you across the Antarctic plain like a runaway freight train. It burbles and pipes most unnervingly, rooting you to the spot with terror [WILL - 1].",
@@ -2778,7 +2778,7 @@
       "ithaqua": {
         "SPECIAL-1": {
           "name": "Exploring Hyperborea",
-          "card": [
+          "cards": [
             {
               "id": "MoM_Sp1_Itq1",
               "top": "On a distant hill by the sea, you glimpse a black tower. An eerie presence can be felt from the direction of the structure. You hesitantly approach the ancient, five-sided tower to discover its purpose [OBSERVATION].",
@@ -2838,7 +2838,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "SR_A21",
             "top": "A strange man at the bank is unable to pay his mortgage. He is willing to sell you an antique book of magic [INFLUENCE - 1]. If you pass, the book proves highly illuminating; gain 1 non-RITUAL Spell and 1 random TOME asset from the deck. If you fail, he lashes out; a Cultist Monster ambushes you!",
@@ -2869,7 +2869,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "SR_E21",
             "top": "Vernon Kel wants you to work for MI5. You may gain an Agreement Condition to gain 1 TASK Unique Asset and interrogate a captured Deep One [WILL]. If you pass, you learn the blessing of Dagon; gain 1 BOON Condition. If you fail, the experience horrifies you; lose 1 Sanity.",
@@ -2900,7 +2900,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "SR_As21",
             "top": "A pilgrimage to a hidden grotto said to house the legendary Jade Books is taking place. You can join them only if you accept certain conditions. You may gain an Agreement Condition to accept the offer. If you gain the Condition, you find many extremely rare texts; gain 1 TOME Artifact.",
@@ -2931,7 +2931,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "SR_G21",
             "top": "The local Silver Twilight Lodge is under investigation by the police. The Lodge members will gladly contribute their magic to your cause in exchange for a favor. You may gain an Agreement Condition to gain 1 BOON Condition.",
@@ -2960,7 +2960,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "SR_Ga37",
           "name": "Great Hall of Celaeno",
@@ -3010,7 +3010,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "syzygy": {
-        "card": [
+        "cards": [
           {
             "id": "FL_R_Syz1",
             "top": "Gazing at the sun, you have a sudden epiphany regarding the effects of a planetary occultation on dimensional stability and become distracted [OBSERVATION]. If you pass, gain this Clue. If you fail, you hit your head on a low-hanging street sign and forget all about it; gain a Head Injury Condition.",
@@ -3159,7 +3159,7 @@
       }
     },
     "mystic_ruins": {
-      "card": [
+      "cards": [
         {
           "id": "SR_Myst_MS_1",
           "name": "Moai Statues - 3",
@@ -3306,7 +3306,7 @@
       "syzygy": {
         "SPECIAL-1": {
           "name": "Fortifying the Barrier",
-          "card": [
+          "cards": [
             {
               "id": "SR_Sp1_Syz1",
               "top": "As you approach the decrepit ruins, you feel an alien presence try to force its way into your consciousness. You suspect it to be one of the shan, a race of Azathoth worshiping insects, and try to resist [WILL - 1].",
@@ -3359,7 +3359,7 @@
         },
         "SPECIAL-2": {
           "name": "Sealing the Portal",
-          "card": [
+          "cards": [
             {
               "id": "SR_Sp2_Syz1",
               "top": "On the far side of the portal, you find yourself in a massive amphitheater, suspended in the vast emptiness of space. In the center, the Dark Man, presiding over a jury of faceless beings, informs you from his bench that humanity is on trial [INFLUENCE - 1].",
@@ -3443,7 +3443,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "UtP_A25",
             "top": "You find arcane symbols at the Miskatonic University Administration Building. Gain 1 non-RITUAL Spell. The Dean fears that they portend disaster, and you try to ritually remove them [LORE - 1]. If you fail, you suffer their dire results; impair [OBSERVATION] and [STRENGTH].",
@@ -3474,7 +3474,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "UtP_E25",
             "top": "Paul Tregardis shares occult wisdom he gained using a strange crystal. Spawn 1 Clue. You stare into the stone and see ancient glyphs [LORE - 1]. If you pass, you find a prophecy; gain 1 TASK Unique Asset. If you fail, your identity is lost; gain an Amnesia Condition.",
@@ -3505,7 +3505,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "UtP_As25",
             "top": "The Buddhist monk Chao Kung is actually a con man. For a bribe, he'll get his fellow monks to help you [INFLUENCE]. If you pass, they guide your studies; improve 1 skill of your choice. If you fail, you take the fall for his crimes; gain a Detained Condition.",
@@ -3536,7 +3536,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "UtP_G25",
             "top": "A local politician blames you for several murders and kidnappings. People have been convinced to find and punish you. You try to reason with them [INFLUENCE]. If you fail, they beat you mercilessly; gain 1 INJURY Condition and impair [STRENGTH].",
@@ -3567,7 +3567,7 @@
         "top_header": "The Sahara Desert",
         "middle_header": "Tel el-Amarna",
         "bottom_header": "The Nile River",
-        "card": [
+        "cards": [
           {
             "id": "UtP_Afr1",
             "top": "You search for the legendary petroglyphs at the oasis at Jebel Uweinat [OBSERVATION]. If you pass, the images of beasts are near a refreshing spring that invigorates you; improve 1 skill of your choice. If you fail, you hear animals running but see nothing; gain a Paranoia Condition.",
@@ -3670,7 +3670,7 @@
         "top_header": "Alexandria",
         "middle_header": "The Bent Pyramid",
         "bottom_header": "Cairo",
-        "card": [
+        "cards": [
           {
             "id": "UtP_Egy1",
             "top": "You meet a lunatic ranting about the Dark Pharaoh. You try to earn his trust with your knowledge [LORE]. If you pass, he shares his secrets; gain 1 GLAMOUR Spell, and if Nephren-Ka is the Ancient One, gain 1 Clue. If you fail, he lashes out; gain 1 INJURY Condition.",
@@ -3771,7 +3771,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "UtP_Ga43",
           "name": "Lost Carcosa",
@@ -3817,7 +3817,7 @@
       ]
     },
     "expedition": {
-      "card": [
+      "cards": [
         {
           "id": "UtP_Ex_BA_1",
           "name": "Buenos Aires",
@@ -3909,7 +3909,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "abhoth": {
-        "card": [
+        "cards": [
           {
             "id": "UtP_R_Abh1",
             "top": "Walking through town, you think you smell sulfur as you cross a busy intersection. You try to locate the source of the odor [OBSERVATION]. If you pass, you find a trail of gray ooze leading to a nearby sewer hatch; gain this Clue. If you fail, you are struck by a motorcar in your carelessness; gain 1 INJURY Condition.",
@@ -4057,7 +4057,7 @@
         ]
       },
       "NEPHREN-KA": {
-        "card": [
+        "cards": [
           {
             "id": "UtP_R_NK1",
             "top": "You are hired to deliver a strange package to a retired professor on the edge of town [OBSERVATION]. If you pass, you see the package shift, and carefully open it to reveal a poisonous asp; gain this Clue. If you fail, you see the professor's name in the following morning's obituaries; advance Doom by 1.",
@@ -4209,7 +4209,7 @@
       "abhoth": {
         "SPECIAL-1": {
           "name": "Spawn of Abhoth",
-          "card": [
+          "cards": [
             {
               "id": "UtP_Sp1_Abh1",
               "top": "A malformed beast stares at you as it dissects its most recent victim, gray ooze dripping from its numerous pores. Within its transparent digestive system you can see the remains of many large game animals, and the sight sickens you [WILL].",
@@ -4310,7 +4310,7 @@
         },
         "SPECIAL-2": {
           "name": "Deep Caverns",
-          "card": [
+          "cards": [
             {
               "id": "UtP_Sp2_Abh1",
               "top": "A heavy scraping noise brings your attention to a malformed gray creature on a ledge below you. It appears to be dragging a young man behind it. Resolve the pass effect to try to get the young man's attention; or resolve the fail effect to drop a nearby boulder on the beast.",
@@ -4365,7 +4365,7 @@
       "NEPHREN-KA": {
         "SPECIAL-1": {
           "name": "Black Wind",
-          "card": [
+          "cards": [
             {
               "id": "UtP_Sp1_NK1",
               "top": "The wind shrieks and wails, sucking moisture from the atmosphere and withering plant life into dust. Suddenly, the air ignites, and a curtain of flame begins to spread outward, leaping from structure to structure. You invoke the water spirits in the area to halt its advance [LORE].",
@@ -4418,7 +4418,7 @@
         },
         "SPECIAL-2": {
           "name": "Dark Pharaoh",
-          "card": [
+          "cards": [
             {
               "id": "UtP_Sp2_NK1",
               "top": "Deep within the pyramid, you com across a pair of statues of the Blind Apes of Truth, surrounded on all sides by stone sarcophagi. Upon closer inspection, you find that the intricately carved sarcophagi depict not human bodies, but those of demons and other dark creatures [WILL - 1].",
@@ -4478,7 +4478,7 @@
         "top_header": "Arkham",
         "middle_header": "San Francisco",
         "bottom_header": "Buenos Aires",
-        "card": [
+        "cards": [
           {
             "id": "SoC_A29",
             "top": "At 607 Water St. in Kingsport you discover an arcane treasure within. Gain 1 random MAGICAL Asset from the deck. A terrible old man glares at you [WILL - 1]. If you pass, he deems you worthy; gain 1 INCANTATION Spell. If you fail, he clouds your thoughts; impair [LORE].",
@@ -4509,7 +4509,7 @@
         "top_header": "London",
         "middle_header": "Rome",
         "bottom_header": "Istanbul",
-        "card": [
+        "cards": [
           {
             "id": "SoC_E29",
             "top": "Harry Price tells you of an arcane legend. Gain 1 TASK Unique Asset. He asks for help investigating the effects of the Yellow Sign [OBSERVATION]. If you pass, you learn its insidious effects; spawn 2 Clues. If you fail, you acquire an aura of decay; impair [INFLUENCE].",
@@ -4540,7 +4540,7 @@
         "top_header": "Shanghai",
         "middle_header": "Tokyo",
         "bottom_header": "Sydney",
-        "card": [
+        "cards": [
           {
             "id": "SoC_As29",
             "top": "The government wants to close Shanghai University, but you negotiate to stop them [INFLUENCE]. If you pass, you receive classes in return; gain 1 TALENT Condition and improve [LORE]. If you, Chiang Kai-shek arranges a dire fate for you; gain a Blight Condition.",
@@ -4571,7 +4571,7 @@
         "top_header": "City",
         "middle_header": "Wilderness",
         "bottom_header": "Sea",
-        "card": [
+        "cards": [
           {
             "id": "SoC_G29",
             "top": "A secret society made up of the city's wealthiest elites contacts you with an invitation. They would like to initiate you into their inner circle. You may gain a Dark Pact Condition to gain a Promise of Power Condition.",
@@ -4600,7 +4600,7 @@
       }
     },
     "gate": {
-      "card": [
+      "cards": [
         {
           "id": "SoC_Ga49",
           "name": "Lost Carcosa",
@@ -4646,7 +4646,7 @@
       ]
     },
     "expedition": {
-      "card": [
+      "cards": [
         {
           "id": "SoC_Ex_Amz_6",
           "name": "The Amazon",
@@ -4696,7 +4696,7 @@
       "middle_header": "Wilderness",
       "bottom_header": "Sea",
       "hastur": {
-        "card": [
+        "cards": [
           {
             "id": "SoC_R_Has1",
             "top": "You find a leather-bound first edition of The King in Yellow on display at the local Historical Society. You are advised that reading the play is dangerous, but are given permission to do so should you desire. You may gain a Dark Pact Condition to gain this Clue and 1 additional Clue.",
@@ -4848,7 +4848,7 @@
       "hastur": {
         "SPECIAL-1": {
           "name": "King in Yellow",
-          "card": [
+          "cards": [
             {
               "id": "SoC_Sp1_Has1",
               "top": "The ornate golden doors Of the theater are guarded by a hulking doorman who eyes you with suspicion. He demands to see your ticket before you are granted entrance. You insist that you have mistakenly left your ticket in your hotel room and attempt to bribe him to let you in [INFLUENCE - 1].",
@@ -4925,7 +4925,7 @@
         },
         "SPECIAL-2": {
           "name": "Cities on the Lake",
-          "card": [
+          "cards": [
             {
               "id": "SoC_Sp2_Has1",
               "top": "Wandering through the mists on the shores of Lake Hali, you stumble upon a byakhee engaged in a ferocious battle against a mi-go. Resolve the pass effect to assist the mi-go by attempting to banish the byakhee or resolve the fail effect to remain hidden and let the battle play out.",
@@ -5002,7 +5002,7 @@
         },
         "SPECIAL-3": {
           "name": "Unspeakable One",
-          "card": [
+          "cards": [
             {
               "id": "SoC_Sp3_Has1",
               "top": "A hurricane rages about the city, and voices like needles can be heard upon the wind. If you have a Dark Pact Condition, resolve the fail effect. You encounter a group of cultists huddled together in the storm and attempt to infiltrate their ranks and learn of their plans [INFLUENCE - 1].",
